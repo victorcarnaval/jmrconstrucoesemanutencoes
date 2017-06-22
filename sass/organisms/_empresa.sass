@@ -1,0 +1,215 @@
+.quem-somos
+	+breakpoint($tablet)
+		text-align: center
+	+breakpoint($celular)
+		text-align: center
+	.texto-quem-somos
+		text-align: left
+		max-width: 580px
+		width: 100%
+		margin: 100px 0 0 0
+		display: inline-block
+		h1
+			font-size: 50px
+			font-weight: bold
+		p
+			font-size: 20px
+
+		+breakpoint($tablet)
+			margin: 50px 0
+			text-align: center
+			h1
+				+font-size(60px)
+			p
+				+font-size(25px)
+
+		+breakpoint($celular)
+			height: auto
+			margin: 20px 0
+			text-align: center
+
+	.imagem-quem-somos
+		float: right
+		max-width: 320px
+		max-height: 320px
+		width: 100%
+		height: 100%
+		margin: 50px 0 0 0
+		+breakpoint($tablet)
+			display: block
+			max-width: 220px
+			max-height: 220px
+			float: none
+			margin: 0 auto
+		+breakpoint($celular)
+			max-width: 100px
+			max-height: 100px
+
+.title-MVV
+	margin: 150px 0 0 0
+	+breakpoint($tablet)
+		margin: 100px 0 0 0
+	+breakpoint($celular)
+		margin: 50px 0 0 0
+	h1
+		font-size: 50px
+		color: #7383bf
+		font-weight: bold
+		text-align: center
+		+breakpoint($tablet)
+			+font-size(60px)
+		+breakpoint($celular)
+			+font-size(50px)
+
+.missao
+	background: #f1f1f1
+	margin-top: 50px
+	height: auto
+	+breakpoint($tablet)
+		padding: 0
+		text-align: center
+	+breakpoint($celular)
+		text-align: center
+		margin: 0
+	.align-missao
+		margin: 80px auto
+		padding: 20px 0
+		display: flex
+		align-items: center
+		justify-content: space-around		
+
+	.texto-missao
+		margin-left: 20px
+		order: 2
+		color: #000
+		max-width: 720px
+		width: 100%
+		height: auto
+		font-weight: bold
+		p
+			font-size: 20px
+		+breakpoint($tablet)
+			margin: 0 auto
+			float: none			
+			p
+				+font-size(25px)
+		+breakpoint($celular)
+
+
+	.imagem-missao
+		order: 1
+		max-width: 220px
+		max-height: 220px
+		width: 100%
+		height: 100%		
+		+breakpoint($tablet)
+			display: block
+			max-width: 100px
+			max-height: 100px
+			float: none
+			margin: 0 auto
+			margin-bottom: 40px
+		+breakpoint($celular)
+			margin-top: 40px			
+			max-width: 80px
+			max-height: 80px
+
+.visao
+	+breakpoint($tablet)
+		padding: 0
+		text-align: center
+	+breakpoint($celular)
+		text-align: center
+	.align-visao
+		margin: 80px auto
+		display: flex
+		align-items: center
+		justify-content: space-around
+		+breakpoint($celular)
+			margin: 0		
+
+	.texto-visao
+		margin-left: 20px
+		order: 1
+		color: #000
+		max-width: 720px
+		width: 100%
+		height: auto
+		font-weight: bold
+		p
+			font-size: 20px
+		+breakpoint($tablet)
+			margin: 0 auto
+			float: none			
+			p
+				+font-size(25px)
+		+breakpoint($celular)
+
+
+	.imagem-visao
+		order: 2
+		max-width: 220px
+		max-height: 220px
+		width: 100%
+		height: 100%
+		+breakpoint($tablet)
+			display: block
+			max-width: 100px
+			max-height: 100px
+			float: none
+			margin: 0 auto
+			margin-bottom: 40px
+		+breakpoint($celular)
+			margin-top: 40px			
+			max-width: 80px
+			max-height: 80px
+
+.valores
+	background: #f1f1f1
+	+breakpoint($tablet)
+		padding: 0
+		text-align: center
+	+breakpoint($celular)
+		text-align: center
+	.align-valores
+		margin: 80px auto
+		padding: 20px 0
+		display: flex
+		align-items: center
+		justify-content: space-around		
+
+	.texto-valores
+		margin-left: 20px
+		order: 2
+		color: #000
+		max-width: 720px
+		width: 100%
+		height: auto
+		font-weight: bold
+		p
+			font-size: 20px
+		+breakpoint($tablet)
+			margin: 0 auto
+			float: none			
+			p
+				+font-size(25px)
+		+breakpoint($celular)
+
+
+	.imagem-valores
+		order: 1
+		max-width: 220px
+		max-height: 220px
+		width: 100%
+		height: 100%
+		+breakpoint($tablet)
+			display: block
+			max-width: 100px
+			max-height: 100px
+			float: none
+			margin: 0 auto
+			margin-bottom: 40px
+		+breakpoint($celular)
+			margin-top: 40px			
+			max-width: 80px
+			max-height: 80px

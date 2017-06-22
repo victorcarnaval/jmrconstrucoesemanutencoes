@@ -1,0 +1,100 @@
+.title-servicos
+  margin: 50px 0
+  h1
+    font-size: 50px
+    font-weight: bold
+    text-align: center
+    +breakpoint($tablet)
+      font-size: 35px
+
+.manutencao-conteudo, .construcao-conteudo, .serralheria-conteudo
+    h1, p
+       color: #000 
+    h1
+      +font-size(40px)      
+    p
+      +font-size(25px)
+    +breakpoint($tablet)
+      h1
+        +font-size(30px)
+      p
+        +font-size(22px)
+    +breakpoint($celular)
+      h1
+        font-weight: bold
+
+.align-manutencao, .align-construcao, .align-serralheria
+  display: flex
+  flex-direction: column
+  align-items: center 
+  text-align: center
+  +breakpoint($celular)
+    margin-top: 20px
+
+.cons-serr-box
+  display: flex
+  flex-direction: row
+  align-items: center
+  text-align: center
+  +breakpoint($celular)
+    flex-direction: column
+
+.manutencao-imagem, .construcao-imagem, .serralheria-imagem
+  max-width: 50px
+  max-height: 50px
+  width: 100%
+  height: 100%
+
+.solicite  
+  text-align: center
+  height: 400px
+  margin-bottom: 20px
+  padding-top: 50px
+
+  background:
+    image: url('../images/predio.jpg')
+    position: top center
+    repeat: no-repeat
+    size: cover
+    attachment: fixed
+
+  h1
+    +font-size(60px)
+    color: #000
+    font-weight: bold
+    text-shadow: 1px 1px 1px #888888
+  a
+    font-family: Arial
+    +font-size(40px)
+    text-decoration: none
+    color: #fff
+    border: 2px solid #000
+    padding: 5px 20px
+    background: #000
+   
+    &:hover
+      background: #f1f1f1
+      border: 2px solid #fff
+      color: #000
+      +transition(0.7s)
+  +breakpoint($tablet)
+    height: 200px
+    margin-bottom: 10px
+    padding: 2px 0
+    background:
+      attachment: scroll
+      position: center
+    h1
+      +font-size(50px)
+    a
+      +font-size(30px)
+  +breakpoint($celular)
+    margin-top: 20px
+    margin-bottom: 5px
+    h1
+      +font-size(40px)
+
+.solicite-btn
+  margin: 100px 0 0 0
+  +breakpoint($tablet)
+    margin: 50px 0

@@ -2,15 +2,15 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>JMR Construções e Manutenções - Início</title>
+	<title>JMR Construções e Manutenções - Fale Conosco</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/geral.css">
 	<link rel="stylesheet" type="text/css" href="css/plugins.css">
-	<link rel="stylesheet" type="text/css" href="css/inicio.css">
+	<link rel="stylesheet" type="text/css" href="css/faleconosco.css">
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato">
-
+	
 	<link rel="shortcut icon" type="image/png" href="images/favicon_color.png">
 </head>
 <body>
@@ -49,7 +49,6 @@
 						<span></span>
 						<span></span>
 					</a>
-
 					<ul class="social wow fadeInRight">
 						<li>
 							<a href="https://www.facebook.com/JMR-Constru%C3%A7%C3%B5es-e-Manuten%C3%A7%C3%B5es-624534404396676/" target="_blank"><i class="fa fa-facebook"></i></a>
@@ -57,71 +56,66 @@
 					</ul>
 				</div>
 
-				<h1 class="wow fadeIn"><strong>Início</strong></h1>			
+				<h1 class="wow fadeIn" ><strong>Fale Conosco</strong></h1>			
 
 			</div>
 			
 		</header>
 
 		<main>
-			<section class="servicos">
-				<div class="container servicos wow slideInLeft">
-					<div class="texto-servico">
-						<h1>Precisando reformar ou construir?</h1>
-						<p>A JMR realizada diversos tipos de serviços para satisfazer todas as necessidades de nossos clientes.</p>
-					</div>
-					<div class="imagem-servico">
-						<img src="images/engineer.svg" alt="Engenheiro">
-					</div>
+			<div class="title-fale-conosco">
+				<h1 class="wow fadeIn">Retire sua dúvida ou faça um orçamento</h1>
+			</div>
+
+			<section class="fale-conosco">
+				<div class="container wow fadeInDown">
+					<form action="contato.php" method="POST">
+						<div class="cols">
+							<div class="col">
+								<div class="form-group">
+									<input type="text" name="nome" placeholder="Nome" required>
+								</div>
+							</div>
+							<div class="col">
+								<div class="form-group">
+									<input type="email" name="email" placeholder="E-mail" required>
+								</div>
+							</div>
+							<div class="col">
+								<div class="form-group">
+									<input type="number" name="telefone" placeholder="Telefone">
+								</div>
+							</div>
+							<div class="col">
+								<div class="form-group">
+									<select name="assunto">
+										<option>Selecione uma opção</option>
+										<option>Orçamento</option>
+										<option>Sugestão</option>
+										<option>Dúvidas</option>
+										<option>Outras informações</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<div class="form-group">
+							<textarea name="mensagem" placeholder="Escreva uma mensagem" required></textarea>
+						</div>
+						<div class="form-group">
+							<button name="enviar"><i class="fa fa-arrow-right"></i> Enviar Mensagem</button>
+						</div>
+
+					</form>
+				</div>
 				
-				</div>
-				<div class="botoes wow fadeInDown">
-					<a href="servicos.html" class="botao">Manutenção</a>
-					<a href="servicos.html" class="botao">Construção</a>
-					<a href="servicos.html" class="botao">Serralheria</a>
-					<a href="servicos.html" class="botao">Montagem Industrial</a>
-				</div>
-
 			</section>
-
-			<section class="empresa">
-				<div class="container wow slideInRight">
-					<div class="texto-empresa">
-						<h1>Nossa Empresa</h1>
-						<p>A JMR Construções e Manutenções é uma empresa direcionada à obras civil e manutenções em geral. Com um time formado por excelentes profissionais, qualificados e experientes, que fazem toda a diferença na conclusão do serviço. A empresa é liderada pelo engenheiro Jean Wesley e pelo gestor financeiro Carlos Rodolfo visando atender o mercado de manutenção residencial, industrial e predial. Buscando realizar todas as necessidades deste amplo mercado com Responsabilidade, Segurança, Inovação e Qualidade.</p>
-					</div>
-					<div class="imagem-empresa">
-						<img src="images/brick-wall.svg" alt="Parede em construção">
-					</div>
+			
+			<section class="gmaps">
+				<div class="map">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1268.951976497906!2d-45.7951352850221!3d-23.172952438847332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc4c53d6bf5385%3A0xf01c9a4f0cfcdd13!2sR.+Fauze+Dimas+Lumumb%C3%A1+Gon%C3%A7alves%2C+317+-+Jardim+Santa+Ines+I%2C+S%C3%A3o+Jos%C3%A9+dos+Campos+-+SP%2C+12248-460!5e1!3m2!1spt-BR!2sbr!4v1498071666333" sframeborder="0" style="border:0" allowfullscreen></iframe>
 				</div>
 			</section>
 
-			<section class="endereco">
-				<div class="container">
-					<div class="sede-empresa">
-						<i class="fa fa-home"></i>
-						<p>JMR Construções e Manutenções</p>
-					</div>
-
-					<div class="local-empresa">
-						<i class="fa fa-map-marker"></i>
-						<p>Rua Fauze Dimas Lamunba Gonçalves
-						<br>Nº 317 – Jardim Santa inês I
-						<br>São José dos Campos SP – 12.248-460</p>
-					</div>
-
-					<div class="telefone-empresa">
-						<i class="fa fa-phone"></i>
-						<p>(12) 97402-7624
-						<br>(12) 3346-0584</p>
-					</div>
-
-					<div class="email-empresa">
-						<i class="fa fa-envelope"></i>
-						<p>contato@jmrmanutencoes.com</p>
-					</div>
-				</div>
-			</section>
 		</main>
 
 		<footer>
@@ -130,6 +124,7 @@
 			</div>
 		</footer>
 	</div>
+
 	<script src="js/jquery.min.js" type="text/javascript"></script>
 	<script src="js/wow.min.js" type="text/javascript"></script>
 	<script>
@@ -138,7 +133,6 @@
 				$('.layout').toggleClass('ativo');
 				$('.menu-responsivo').toggleClass('ativo');
 				$(this).toggleClass('ativo');
-				$('.link-menu').toggleClass('align-menu')
 			});
 			new WOW({
 				mobile: false
